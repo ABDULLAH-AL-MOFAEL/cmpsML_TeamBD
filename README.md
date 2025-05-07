@@ -10,7 +10,7 @@ This project aims to classify water quality using machine learning algorithms: *
 Implemented in Python as part of the **CMPS 470/570 Machine Learning** course.  
 
 ## 🧩 Folder Structure
-
+<pre> <code>
 '''
 cmpsML_TeamBD/
 ├── CODE/
@@ -41,7 +41,7 @@ cmpsML_TeamBD/
 │   └── ReadMe.txt
 
 '''
-
+</code> </pre>
 
 ##  Pipeline Overview
 
