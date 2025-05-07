@@ -7,7 +7,7 @@ This project aims to classify water quality using machine learning algorithms: *
 2. **Feature Extraction**
 3. **Model Training & Evaluation**
 
-Implemented in Python as part of the **CMPS 470/570 Machine Learning** course.  
+Implemented in Python as part of the **CMPS 5700 Machine Learning** course.  
 
 ##  Folder Structure
 
@@ -37,6 +37,7 @@ cmpsML_TeamBD/
 │   ├── TeamBD_PA1_Data preprocessing.pdf
 │   ├── TeamBD_PA2_Feature Extraction.pdf
 │   └── TeamBD_Proposal.pdf
+|   |___TeamBD_Final_Report.pdf
 ├── OTHER/
 │   └── ReadMe.txt
 
