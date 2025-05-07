@@ -1,6 +1,6 @@
 # Water Quality  Indexing – cmpsML_TeamBD
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to classify water quality using machine learning algorithms: **ANN**, **SVM**, **Decision Tree**, and **KNN**. It includes three major stages:
 1. **Data Preprocessing**
@@ -9,7 +9,7 @@ This project aims to classify water quality using machine learning algorithms: *
 
 Implemented in Python as part of the **CMPS 470/570 Machine Learning** course.  
 
-## 🧩 Folder Structure
+##  Folder Structure
 <pre> <code>
 '''
 cmpsML_TeamBD/
