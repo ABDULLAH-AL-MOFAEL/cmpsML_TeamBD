@@ -168,11 +168,15 @@ def plot_roc_curves(models, X_test, y_test):
 # Compare Accuracy, F1, AUC for all models using bar plot
 
 def plot_comparison_bars(metrics_df):
-    metrics_df.set_index("Model")[['Accuracy', 'F1', 'AUC']].plot(kind='bar', figsize=(10, 6))
-    plt.title('Model Performance Comparison')
+    metrics_df.set_index("Model")[['Accuracy', 'Precision', 'Recall', 'Specificity', 'F1', 'AUC']].plot(
+        kind='bar', figsize=(12, 6)
+    )
+    plt.title('Model Performance Comparison Across All Metrics')
     plt.ylabel('Score')
+    plt.xticks(rotation=0)
+    plt.legend(title='Metric')
     plt.tight_layout()
-    plt.savefig(OUTPUT_RESULTS_DIR / "performance_comparison.png")
+    plt.savefig(OUTPUT_RESULTS_DIR / "performance_comparison_all_metrics.png")
     plt.close()
 
 
