@@ -37,6 +37,7 @@ cmpsML_TeamBD/
 │   ├── TeamBD_PA1_Data preprocessing.pdf
 │   ├── TeamBD_PA2_Feature Extraction.pdf
 │   └── TeamBD_Proposal.pdf
+|   |___TeamBD_Final_Report.pdf
 ├── OTHER/
 │   └── ReadMe.txt
 
